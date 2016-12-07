@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93A288F51DF8A08100550C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A288F41DF8A08100550C74 /* AppDelegate.swift */; };
+		93A288F71DF8A08100550C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A288F61DF8A08100550C74 /* ViewController.swift */; };
+		93A288F91DF8A08100550C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A288F81DF8A08100550C74 /* Assets.xcassets */; };
+		93A288FC1DF8A08100550C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A288FA1DF8A08100550C74 /* Main.storyboard */; };
+		93A289071DF8A08100550C74 /* KIWITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289061DF8A08100550C74 /* KIWITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93A289031DF8A08100550C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A288E91DF8A08000550C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A288F01DF8A08000550C74;
+			remoteInfo = KIWI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93A288F11DF8A08100550C74 /* KIWI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIWI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A288F41DF8A08100550C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93A288F61DF8A08100550C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93A288F81DF8A08100550C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93A288FB1DF8A08100550C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93A288FD1DF8A08100550C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A289021DF8A08100550C74 /* KIWITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIWITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A289061DF8A08100550C74 /* KIWITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIWITests.swift; sourceTree = "<group>"; };
+		93A289081DF8A08100550C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A288EE1DF8A08000550C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A288FF1DF8A08100550C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93A288E81DF8A08000550C74 = {
+			isa = PBXGroup;
+			children = (
+				93A288F31DF8A08100550C74 /* KIWI */,
+				93A289051DF8A08100550C74 /* KIWITests */,
+				93A288F21DF8A08100550C74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A288F21DF8A08100550C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A288F11DF8A08100550C74 /* KIWI.app */,
+				93A289021DF8A08100550C74 /* KIWITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A288F31DF8A08100550C74 /* KIWI */ = {
+			isa = PBXGroup;
+			children = (
+				93A288F41DF8A08100550C74 /* AppDelegate.swift */,
+				93A288F61DF8A08100550C74 /* ViewController.swift */,
+				93A288F81DF8A08100550C74 /* Assets.xcassets */,
+				93A288FA1DF8A08100550C74 /* Main.storyboard */,
+				93A288FD1DF8A08100550C74 /* Info.plist */,
+			);
+			path = KIWI;
+			sourceTree = "<group>";
+		};
+		93A289051DF8A08100550C74 /* KIWITests */ = {
+			isa = PBXGroup;
+			children = (
+				93A289061DF8A08100550C74 /* KIWITests.swift */,
+				93A289081DF8A08100550C74 /* Info.plist */,
+			);
+			path = KIWITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A288F01DF8A08000550C74 /* KIWI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2890B1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWI" */;
+			buildPhases = (
+				93A288ED1DF8A08000550C74 /* Sources */,
+				93A288EE1DF8A08000550C74 /* Frameworks */,
+				93A288EF1DF8A08000550C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIWI;
+			productName = KIWI;
+			productReference = 93A288F11DF8A08100550C74 /* KIWI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93A289011DF8A08100550C74 /* KIWITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2890E1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWITests" */;
+			buildPhases = (
+				93A288FE1DF8A08100550C74 /* Sources */,
+				93A288FF1DF8A08100550C74 /* Frameworks */,
+				93A289001DF8A08100550C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A289041DF8A08100550C74 /* PBXTargetDependency */,
+			);
+			name = KIWITests;
+			productName = KIWITests;
+			productReference = 93A289021DF8A08100550C74 /* KIWITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A288E91DF8A08000550C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Karthik;
+				TargetAttributes = {
+					93A288F01DF8A08000550C74 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UYGU8PDBPS;
+						ProvisioningStyle = Automatic;
+					};
+					93A289011DF8A08100550C74 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = UYGU8PDBPS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 93A288F01DF8A08000550C74;
+					};
+				};
+			};
+			buildConfigurationList = 93A288EC1DF8A08000550C74 /* Build configuration list for PBXProject "KIWI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93A288E81DF8A08000550C74;
+			productRefGroup = 93A288F21DF8A08100550C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A288F01DF8A08000550C74 /* KIWI */,
+				93A289011DF8A08100550C74 /* KIWITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A288EF1DF8A08000550C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A288F91DF8A08100550C74 /* Assets.xcassets in Resources */,
+				93A288FC1DF8A08100550C74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A289001DF8A08100550C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A288ED1DF8A08000550C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A288F71DF8A08100550C74 /* ViewController.swift in Sources */,
+				93A288F51DF8A08100550C74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A288FE1DF8A08100550C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A289071DF8A08100550C74 /* KIWITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A289041DF8A08100550C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A288F01DF8A08000550C74 /* KIWI */;
+			targetProxy = 93A289031DF8A08100550C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93A288FA1DF8A08100550C74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A288FB1DF8A08100550C74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93A289091DF8A08100550C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93A2890A1DF8A08100550C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		93A2890C1DF8A08100550C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				INFOPLIST_FILE = KIWI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		93A2890D1DF8A08100550C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				INFOPLIST_FILE = KIWI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		93A2890F1DF8A08100550C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				INFOPLIST_FILE = KIWITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIWI.app/Contents/MacOS/KIWI";
+			};
+			name = Debug;
+		};
+		93A289101DF8A08100550C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UYGU8PDBPS;
+				INFOPLIST_FILE = KIWITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIWI.app/Contents/MacOS/KIWI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A288EC1DF8A08000550C74 /* Build configuration list for PBXProject "KIWI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A289091DF8A08100550C74 /* Debug */,
+				93A2890A1DF8A08100550C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2890B1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2890C1DF8A08100550C74 /* Debug */,
+				93A2890D1DF8A08100550C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93A2890E1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2890F1DF8A08100550C74 /* Debug */,
+				93A289101DF8A08100550C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A288E91DF8A08000550C74 /* Project object */;
+}
