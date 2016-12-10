@@ -7,11 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F2413A214390147766F8770 /* Pods_KIWI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64395D2700704ECC1CED37C8 /* Pods_KIWI.framework */; };
+		9301AAAE1DFBF36B0085BA8F /* SensorListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9301AAAD1DFBF36B0085BA8F /* SensorListViewController.xib */; };
+		9301AAB01DFBF3BD0085BA8F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9301AAAF1DFBF3BD0085BA8F /* LoadingView.swift */; };
+		9301AAB21DFBF50B0085BA8F /* SensorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9301AAB11DFBF50B0085BA8F /* SensorCell.swift */; };
+		9301AAB41DFBF5EC0085BA8F /* SensorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9301AAB31DFBF5EC0085BA8F /* SensorListViewController.swift */; };
+		9301AAB61DFBF6640085BA8F /* KeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9301AAB51DFBF6640085BA8F /* KeyValueStore.swift */; };
+		939F3BF51DFB697C00A1F98F /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939F3BF41DFB697C00A1F98F /* AuthenticationViewController.xib */; };
+		939F3C1E1DFB702F00A1F98F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939F3C1D1DFB702F00A1F98F /* MainMenu.xib */; };
 		93A288F51DF8A08100550C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A288F41DF8A08100550C74 /* AppDelegate.swift */; };
-		93A288F71DF8A08100550C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A288F61DF8A08100550C74 /* ViewController.swift */; };
-		93A288F91DF8A08100550C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A288F81DF8A08100550C74 /* Assets.xcassets */; };
-		93A288FC1DF8A08100550C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A288FA1DF8A08100550C74 /* Main.storyboard */; };
 		93A289071DF8A08100550C74 /* KIWITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289061DF8A08100550C74 /* KIWITests.swift */; };
+		93A289131DF8A35700550C74 /* KIWIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289121DF8A35700550C74 /* KIWIAPI.swift */; };
+		93A289141DF8A35700550C74 /* KIWIAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289121DF8A35700550C74 /* KIWIAPI.swift */; };
+		93A289171DF8B41800550C74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289161DF8B41800550C74 /* User.swift */; };
+		93A289181DF8B41800550C74 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289161DF8B41800550C74 /* User.swift */; };
+		93A2892E1DF8C1EA00550C74 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892B1DF8C1EA00550C74 /* AuthenticationResponse.swift */; };
+		93A2892F1DF8C1EA00550C74 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892B1DF8C1EA00550C74 /* AuthenticationResponse.swift */; };
+		93A289301DF8C1EA00550C74 /* AuthenticationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892C1DF8C1EA00550C74 /* AuthenticationResult.swift */; };
+		93A289311DF8C1EA00550C74 /* AuthenticationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892C1DF8C1EA00550C74 /* AuthenticationResult.swift */; };
+		93A289321DF8C1EA00550C74 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892D1DF8C1EA00550C74 /* Session.swift */; };
+		93A289331DF8C1EA00550C74 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2892D1DF8C1EA00550C74 /* Session.swift */; };
+		93A2895F1DF9F66600550C74 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2895E1DF9F66600550C74 /* Network.swift */; };
+		93A289611DFAF24A00550C74 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289601DFAF24A00550C74 /* Model.swift */; };
+		93A2896E1DFB2A8000550C74 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2896A1DFB2A8000550C74 /* Address.swift */; };
+		93A2896F1DFB2A8000550C74 /* SensorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2896B1DFB2A8000550C74 /* SensorResponse.swift */; };
+		93A289701DFB2A8000550C74 /* SensorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2896C1DFB2A8000550C74 /* SensorResult.swift */; };
+		93A289711DFB2A8000550C74 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A2896D1DFB2A8000550C74 /* Sensors.swift */; };
+		93A289751DFB4EF600550C74 /* SensorActivationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289741DFB4EF600550C74 /* SensorActivationResponse.swift */; };
+		93A289781DFB5EA300550C74 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A289771DFB5EA300550C74 /* AuthenticationViewController.swift */; };
+		93A2897A1DFB658900550C74 /* Assests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A289791DFB658900550C74 /* Assests.xcassets */; };
+		C7A3332898941AF6FC5AAD4E /* Pods_KIWITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD953EF7C32AC32A75FC58E /* Pods_KIWITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +50,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D60D1513CF28B7614D1E75 /* Pods-KIWITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIWITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIWITests/Pods-KIWITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D68DE1E80665A3B60671917 /* Pods-KIWITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIWITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIWITests/Pods-KIWITests.release.xcconfig"; sourceTree = "<group>"; };
+		64395D2700704ECC1CED37C8 /* Pods_KIWI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIWI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9301AAAD1DFBF36B0085BA8F /* SensorListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensorListViewController.xib; sourceTree = "<group>"; };
+		9301AAAF1DFBF3BD0085BA8F /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9301AAB11DFBF50B0085BA8F /* SensorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorCell.swift; sourceTree = "<group>"; };
+		9301AAB31DFBF5EC0085BA8F /* SensorListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorListViewController.swift; sourceTree = "<group>"; };
+		9301AAB51DFBF6640085BA8F /* KeyValueStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyValueStore.swift; sourceTree = "<group>"; };
+		939F3BF41DFB697C00A1F98F /* AuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		939F3C1D1DFB702F00A1F98F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		93A288F11DF8A08100550C74 /* KIWI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIWI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A288F41DF8A08100550C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93A288F61DF8A08100550C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		93A288F81DF8A08100550C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93A288FB1DF8A08100550C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93A288FD1DF8A08100550C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A289021DF8A08100550C74 /* KIWITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIWITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A289061DF8A08100550C74 /* KIWITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIWITests.swift; sourceTree = "<group>"; };
 		93A289081DF8A08100550C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A289121DF8A35700550C74 /* KIWIAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIWIAPI.swift; sourceTree = "<group>"; };
+		93A289161DF8B41800550C74 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		93A2892B1DF8C1EA00550C74 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
+		93A2892C1DF8C1EA00550C74 /* AuthenticationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationResult.swift; sourceTree = "<group>"; };
+		93A2892D1DF8C1EA00550C74 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		93A2895E1DF9F66600550C74 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		93A289601DFAF24A00550C74 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		93A2896A1DFB2A8000550C74 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		93A2896B1DFB2A8000550C74 /* SensorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorResponse.swift; sourceTree = "<group>"; };
+		93A2896C1DFB2A8000550C74 /* SensorResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorResult.swift; sourceTree = "<group>"; };
+		93A2896D1DFB2A8000550C74 /* Sensors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
+		93A289741DFB4EF600550C74 /* SensorActivationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorActivationResponse.swift; sourceTree = "<group>"; };
+		93A289771DFB5EA300550C74 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		93A289791DFB658900550C74 /* Assests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assests.xcassets; sourceTree = "<group>"; };
+		959D8D0E2C951CCA87C21E3A /* Pods-KIWI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIWI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIWI/Pods-KIWI.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B0DCFFD99DB09CF2734D26 /* Pods-KIWI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIWI.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIWI/Pods-KIWI.release.xcconfig"; sourceTree = "<group>"; };
+		ECD953EF7C32AC32A75FC58E /* Pods_KIWITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KIWITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2413A214390147766F8770 /* Pods_KIWI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,18 +98,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A3332898941AF6FC5AAD4E /* Pods_KIWITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		687EB19F07D0F3DDB5A30205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64395D2700704ECC1CED37C8 /* Pods_KIWI.framework */,
+				ECD953EF7C32AC32A75FC58E /* Pods_KIWITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9301AABA1DFC3BA60085BA8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93A289791DFB658900550C74 /* Assests.xcassets */,
+				93A288FD1DF8A08100550C74 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9301AABB1DFC3BB60085BA8F /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				939F3BF41DFB697C00A1F98F /* AuthenticationViewController.xib */,
+				939F3C1D1DFB702F00A1F98F /* MainMenu.xib */,
+				9301AAAD1DFBF36B0085BA8F /* SensorListViewController.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		9301AABC1DFC3BC20085BA8F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9301AAAF1DFBF3BD0085BA8F /* LoadingView.swift */,
+				9301AAB11DFBF50B0085BA8F /* SensorCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9301AABD1DFC3BC90085BA8F /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				93A289771DFB5EA300550C74 /* AuthenticationViewController.swift */,
+				9301AAB31DFBF5EC0085BA8F /* SensorListViewController.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		9301AABE1DFC3BE20085BA8F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93A289151DF8B40800550C74 /* Model */,
+				93A289111DF8A32E00550C74 /* Network */,
+				9301AAB51DFBF6640085BA8F /* KeyValueStore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9301AABF1DFC3C990085BA8F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				93A289161DF8B41800550C74 /* User.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		93A288E81DF8A08000550C74 = {
 			isa = PBXGroup;
 			children = (
+				9301AABE1DFC3BE20085BA8F /* Core */,
+				687EB19F07D0F3DDB5A30205 /* Frameworks */,
 				93A288F31DF8A08100550C74 /* KIWI */,
 				93A289051DF8A08100550C74 /* KIWITests */,
+				DF7CBAB49FEF2B010001AE9D /* Pods */,
 				93A288F21DF8A08100550C74 /* Products */,
+				9301AABA1DFC3BA60085BA8F /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,11 +194,10 @@
 		93A288F31DF8A08100550C74 /* KIWI */ = {
 			isa = PBXGroup;
 			children = (
+				9301AABC1DFC3BC20085BA8F /* Components */,
+				9301AABD1DFC3BC90085BA8F /* Interface */,
+				9301AABB1DFC3BB60085BA8F /* XIB */,
 				93A288F41DF8A08100550C74 /* AppDelegate.swift */,
-				93A288F61DF8A08100550C74 /* ViewController.swift */,
-				93A288F81DF8A08100550C74 /* Assets.xcassets */,
-				93A288FA1DF8A08100550C74 /* Main.storyboard */,
-				93A288FD1DF8A08100550C74 /* Info.plist */,
 			);
 			path = KIWI;
 			sourceTree = "<group>";
@@ -87,10 +205,63 @@
 		93A289051DF8A08100550C74 /* KIWITests */ = {
 			isa = PBXGroup;
 			children = (
-				93A289061DF8A08100550C74 /* KIWITests.swift */,
 				93A289081DF8A08100550C74 /* Info.plist */,
+				93A289061DF8A08100550C74 /* KIWITests.swift */,
 			);
 			path = KIWITests;
+			sourceTree = "<group>";
+		};
+		93A289111DF8A32E00550C74 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				93A289121DF8A35700550C74 /* KIWIAPI.swift */,
+				93A2895E1DF9F66600550C74 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		93A289151DF8B40800550C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93A289731DFB454F00550C74 /* Authentication */,
+				93A289721DFB454200550C74 /* Sensor */,
+				9301AABF1DFC3C990085BA8F /* User */,
+				93A289601DFAF24A00550C74 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		93A289721DFB454200550C74 /* Sensor */ = {
+			isa = PBXGroup;
+			children = (
+				93A2896A1DFB2A8000550C74 /* Address.swift */,
+				93A289741DFB4EF600550C74 /* SensorActivationResponse.swift */,
+				93A2896B1DFB2A8000550C74 /* SensorResponse.swift */,
+				93A2896C1DFB2A8000550C74 /* SensorResult.swift */,
+				93A2896D1DFB2A8000550C74 /* Sensors.swift */,
+			);
+			path = Sensor;
+			sourceTree = "<group>";
+		};
+		93A289731DFB454F00550C74 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				93A2892B1DF8C1EA00550C74 /* AuthenticationResponse.swift */,
+				93A2892C1DF8C1EA00550C74 /* AuthenticationResult.swift */,
+				93A2892D1DF8C1EA00550C74 /* Session.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DF7CBAB49FEF2B010001AE9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				959D8D0E2C951CCA87C21E3A /* Pods-KIWI.debug.xcconfig */,
+				D0B0DCFFD99DB09CF2734D26 /* Pods-KIWI.release.xcconfig */,
+				20D60D1513CF28B7614D1E75 /* Pods-KIWITests.debug.xcconfig */,
+				3D68DE1E80665A3B60671917 /* Pods-KIWITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +271,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A2890B1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWI" */;
 			buildPhases = (
+				5F0087D003AC1B7E87AD2CF1 /* [CP] Check Pods Manifest.lock */,
 				93A288ED1DF8A08000550C74 /* Sources */,
 				93A288EE1DF8A08000550C74 /* Frameworks */,
 				93A288EF1DF8A08000550C74 /* Resources */,
+				9500B6FD5EAB695FAD18D7DB /* [CP] Embed Pods Frameworks */,
+				09C5089E6BBF8E8C6EFA9861 /* [CP] Copy Pods Resources */,
+				9301AAC01DFC523B0085BA8F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -117,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93A2890E1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWITests" */;
 			buildPhases = (
+				E108341F21B2D7ADD0AB12C6 /* [CP] Check Pods Manifest.lock */,
 				93A288FE1DF8A08100550C74 /* Sources */,
 				93A288FF1DF8A08100550C74 /* Frameworks */,
 				93A289001DF8A08100550C74 /* Resources */,
+				76F34F208F99C8C9F0C72B34 /* [CP] Embed Pods Frameworks */,
+				FBFFDA97F631F0A794D3052A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,8 +356,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A288F91DF8A08100550C74 /* Assets.xcassets in Resources */,
-				93A288FC1DF8A08100550C74 /* Main.storyboard in Resources */,
+				939F3BF51DFB697C00A1F98F /* AuthenticationViewController.xib in Resources */,
+				93A2897A1DFB658900550C74 /* Assests.xcassets in Resources */,
+				9301AAAE1DFBF36B0085BA8F /* SensorListViewController.xib in Resources */,
+				939F3C1E1DFB702F00A1F98F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +372,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C5089E6BBF8E8C6EFA9861 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIWI/Pods-KIWI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0087D003AC1B7E87AD2CF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76F34F208F99C8C9F0C72B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIWITests/Pods-KIWITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9301AAC01DFC523B0085BA8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		9500B6FD5EAB695FAD18D7DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIWI/Pods-KIWI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E108341F21B2D7ADD0AB12C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFFDA97F631F0A794D3052A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIWITests/Pods-KIWITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93A288ED1DF8A08000550C74 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93A288F71DF8A08100550C74 /* ViewController.swift in Sources */,
+				93A289711DFB2A8000550C74 /* Sensors.swift in Sources */,
+				93A289611DFAF24A00550C74 /* Model.swift in Sources */,
+				9301AAB41DFBF5EC0085BA8F /* SensorListViewController.swift in Sources */,
+				93A289321DF8C1EA00550C74 /* Session.swift in Sources */,
+				93A289701DFB2A8000550C74 /* SensorResult.swift in Sources */,
+				93A289171DF8B41800550C74 /* User.swift in Sources */,
+				93A2895F1DF9F66600550C74 /* Network.swift in Sources */,
+				93A289751DFB4EF600550C74 /* SensorActivationResponse.swift in Sources */,
+				93A289781DFB5EA300550C74 /* AuthenticationViewController.swift in Sources */,
+				93A2896E1DFB2A8000550C74 /* Address.swift in Sources */,
+				9301AAB61DFBF6640085BA8F /* KeyValueStore.swift in Sources */,
+				93A2896F1DFB2A8000550C74 /* SensorResponse.swift in Sources */,
+				9301AAB21DFBF50B0085BA8F /* SensorCell.swift in Sources */,
+				93A289131DF8A35700550C74 /* KIWIAPI.swift in Sources */,
+				93A2892E1DF8C1EA00550C74 /* AuthenticationResponse.swift in Sources */,
+				93A289301DF8C1EA00550C74 /* AuthenticationResult.swift in Sources */,
 				93A288F51DF8A08100550C74 /* AppDelegate.swift in Sources */,
+				9301AAB01DFBF3BD0085BA8F /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +508,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A289311DF8C1EA00550C74 /* AuthenticationResult.swift in Sources */,
+				93A289141DF8A35700550C74 /* KIWIAPI.swift in Sources */,
+				93A289331DF8C1EA00550C74 /* Session.swift in Sources */,
 				93A289071DF8A08100550C74 /* KIWITests.swift in Sources */,
+				93A2892F1DF8C1EA00550C74 /* AuthenticationResponse.swift in Sources */,
+				93A289181DF8B41800550C74 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,17 +526,6 @@
 			targetProxy = 93A289031DF8A08100550C74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		93A288FA1DF8A08100550C74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93A288FB1DF8A08100550C74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		93A289091DF8A08100550C74 /* Debug */ = {
@@ -250,6 +546,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -299,6 +596,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -324,11 +622,13 @@
 		};
 		93A2890C1DF8A08100550C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959D8D0E2C951CCA87C21E3A /* Pods-KIWI.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UYGU8PDBPS;
-				INFOPLIST_FILE = KIWI/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,11 +638,13 @@
 		};
 		93A2890D1DF8A08100550C74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B0DCFFD99DB09CF2734D26 /* Pods-KIWI.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = UYGU8PDBPS;
-				INFOPLIST_FILE = KIWI/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.karthik.KIWI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +654,7 @@
 		};
 		93A2890F1DF8A08100550C74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D60D1513CF28B7614D1E75 /* Pods-KIWITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -368,6 +671,7 @@
 		};
 		93A289101DF8A08100550C74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D68DE1E80665A3B60671917 /* Pods-KIWITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -401,6 +705,7 @@
 				93A2890D1DF8A08100550C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A2890E1DF8A08100550C74 /* Build configuration list for PBXNativeTarget "KIWITests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +714,7 @@
 				93A289101DF8A08100550C74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
