@@ -25,19 +25,6 @@ class AuthenticationViewController: NSViewController {
         updateUI()
     }
 
-    @IBAction func save(sender: NSButton?) {
-        if username.stringValue.characters.count > 0 &&
-        password.stringValue.characters.count > 0 {
-            Defaults.save(user: User(email: username.stringValue, password: password.stringValue))
-        }
-        self.view.window?.close()
-    }
-
-    @IBAction func logout(sender: NSButton?) {
-        Defaults.reset()
-        updateUI()
-    }
-
     func updateUI() {
         if let user = Defaults.currentUser() {
             username.stringValue = user.email
@@ -46,5 +33,23 @@ class AuthenticationViewController: NSViewController {
             username.stringValue = ""
             password.stringValue = ""
         }
+    }
+
+    //MARK: UI actions.
+    @IBAction func save(_ sender: NSButton?) {
+        if username.stringValue.characters.count > 0 &&
+        password.stringValue.characters.count > 0 {
+            Defaults.save(user: User(email: username.stringValue, password: password.stringValue))
+        }
+        self.view.window?.close()
+    }
+
+    @IBAction func logout(_ sender: NSButton?) {
+        Defaults.reset()
+        updateUI()
+    }
+
+    @IBAction func ExitNow(_ sender: NSButton) {
+        NSApplication.shared().terminate(self)
     }
 }

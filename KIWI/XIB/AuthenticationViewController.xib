@@ -16,11 +16,11 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <view appearanceType="aqua" id="WU0-8x-wqL">
-            <rect key="frame" x="0.0" y="0.0" width="371" height="176"/>
+            <rect key="frame" x="0.0" y="0.0" width="371" height="204"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uIn-Bu-TtT">
-                    <rect key="frame" x="20" y="134" width="331" height="22"/>
+                    <rect key="frame" x="20" y="162" width="331" height="22"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="22" id="LMd-iN-hlb"/>
                     </constraints>
@@ -31,7 +31,7 @@
                     </textFieldCell>
                 </textField>
                 <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c0V-1K-HQ7">
-                    <rect key="frame" x="20" y="102" width="331" height="22"/>
+                    <rect key="frame" x="20" y="130" width="331" height="22"/>
                     <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="left" placeholderString="Password" usesSingleLineMode="YES" bezelStyle="round" id="Hgv-BZ-9sh">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -42,45 +42,56 @@
                     </secureTextFieldCell>
                 </secureTextField>
                 <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="q1X-FP-raK">
-                    <rect key="frame" x="20" y="88" width="331" height="5"/>
+                    <rect key="frame" x="20" y="116" width="331" height="5"/>
                 </box>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Zfd-L1-VRk">
-                    <rect key="frame" x="14" y="53" width="343" height="32"/>
+                    <rect key="frame" x="14" y="81" width="343" height="32"/>
                     <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Owc-Pl-wYg">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="saveWithSender:" target="-2" id="6GZ-qq-OR4"/>
+                        <action selector="save:" target="-2" id="XF9-5B-ZzF"/>
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1rM-AR-pFa">
-                    <rect key="frame" x="14" y="26" width="343" height="32"/>
+                    <rect key="frame" x="14" y="54" width="343" height="32"/>
                     <buttonCell key="cell" type="push" title="Reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="x7l-tc-QyE">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="logoutWithSender:" target="-2" id="GcB-FV-aY2"/>
+                        <action selector="logout:" target="-2" id="avw-zd-Bqs"/>
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4AH-7H-lML">
-                    <rect key="frame" x="20" y="8" width="333" height="17"/>
+                    <rect key="frame" x="20" y="36" width="333" height="17"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Please use the same credentials as kiwi.ki." id="YVt-iw-faV">
                         <font key="font" metaFont="system"/>
                         <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wJH-ir-LzE">
+                    <rect key="frame" x="16" y="0.0" width="343" height="32"/>
+                    <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="8WZ-KN-URb">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="ExitNow:" target="-2" id="saY-eT-2s0"/>
+                    </connections>
+                </button>
             </subviews>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="q1X-FP-raK" secondAttribute="trailing" constant="20" id="AOg-pI-tIf"/>
                 <constraint firstItem="4AH-7H-lML" firstAttribute="leading" secondItem="WU0-8x-wqL" secondAttribute="leading" constant="22" id="BHl-IZ-0OX"/>
-                <constraint firstAttribute="bottom" secondItem="4AH-7H-lML" secondAttribute="bottom" constant="8" id="Eat-ry-HLE"/>
                 <constraint firstItem="c0V-1K-HQ7" firstAttribute="height" secondItem="uIn-Bu-TtT" secondAttribute="height" id="ElI-C7-yVz"/>
                 <constraint firstAttribute="trailing" secondItem="4AH-7H-lML" secondAttribute="trailing" constant="20" id="F8j-JS-VVJ"/>
                 <constraint firstItem="c0V-1K-HQ7" firstAttribute="leading" secondItem="WU0-8x-wqL" secondAttribute="leading" constant="20" id="GuK-XQ-Q0y"/>
                 <constraint firstItem="uIn-Bu-TtT" firstAttribute="top" secondItem="WU0-8x-wqL" secondAttribute="top" constant="20" id="Hse-Ui-gGZ"/>
+                <constraint firstItem="wJH-ir-LzE" firstAttribute="leading" secondItem="WU0-8x-wqL" secondAttribute="leading" constant="22" id="Jcg-xp-Utf"/>
+                <constraint firstAttribute="bottom" secondItem="wJH-ir-LzE" secondAttribute="bottom" constant="7" id="KC2-QE-6IM"/>
                 <constraint firstAttribute="trailing" secondItem="Zfd-L1-VRk" secondAttribute="trailing" constant="20" id="Kqs-Km-wdi"/>
                 <constraint firstItem="Zfd-L1-VRk" firstAttribute="top" secondItem="q1X-FP-raK" secondAttribute="bottom" constant="9" id="LtT-er-1p9"/>
                 <constraint firstItem="q1X-FP-raK" firstAttribute="leading" secondItem="WU0-8x-wqL" secondAttribute="leading" constant="20" id="MuA-ki-Ei8"/>
@@ -93,10 +104,12 @@
                 <constraint firstItem="uIn-Bu-TtT" firstAttribute="leading" secondItem="WU0-8x-wqL" secondAttribute="leading" constant="20" id="pdH-11-4UJ"/>
                 <constraint firstItem="q1X-FP-raK" firstAttribute="top" secondItem="c0V-1K-HQ7" secondAttribute="bottom" constant="11" id="rJo-V1-Qo7"/>
                 <constraint firstAttribute="trailing" secondItem="uIn-Bu-TtT" secondAttribute="trailing" constant="20" id="tQq-dV-TQP"/>
+                <constraint firstItem="wJH-ir-LzE" firstAttribute="top" secondItem="4AH-7H-lML" secondAttribute="bottom" constant="8" id="te0-ia-MVT"/>
+                <constraint firstAttribute="trailing" secondItem="wJH-ir-LzE" secondAttribute="trailing" constant="18" id="xD7-xo-GBT"/>
                 <constraint firstItem="4AH-7H-lML" firstAttribute="top" secondItem="1rM-AR-pFa" secondAttribute="bottom" constant="8" id="xeV-lh-BCQ"/>
                 <constraint firstItem="1rM-AR-pFa" firstAttribute="leading" secondItem="Zfd-L1-VRk" secondAttribute="leading" id="zKK-Vp-DkU"/>
             </constraints>
-            <point key="canvasLocation" x="-11" y="-363"/>
+            <point key="canvasLocation" x="-11.5" y="-349"/>
         </view>
     </objects>
 </document>
