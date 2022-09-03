@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     /// The window for the app.
     @IBOutlet weak var window: NSWindow!
 
-    let statusItem = NSStatusBar.system().statusItem(withLength: NSVariableStatusItemLength)
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     let popover = NSPopover()
     var detector: Any?
 
@@ -50,7 +50,7 @@ extension AppDelegate {
                                                object: nil)
     }
 
-    func updatePopverSize(_ notification: Notification) {
+    @objc func updatePopverSize(_ notification: Notification) {
         if let userInfo = notification.userInfo, let height = userInfo["height"] as? Int {
             popover.contentSize = CGSize.init(width: DefaultDimensions.width.rawValue, height: height)
         }
@@ -62,15 +62,14 @@ extension AppDelegate {
 extension AppDelegate {
 
     func presentView() {
-        if let view = SensorListViewController(nibName: "SensorListViewController", bundle: nil) {
+        let view = SensorListViewController(nibName: "SensorListViewController", bundle: nil)
             popover.contentViewController = view
             popover.contentSize = CGSize.init(width: DefaultDimensions.width.rawValue,
                                               height: view.preferredViewHeight)
-        }
     }
 
 
-    func togglePopover(_ sender: AnyObject?) {
+    @objc func togglePopover(_ sender: AnyObject?) {
         if popover.isShown {
             closePopover(sender)
         } else {
@@ -85,7 +84,7 @@ extension AppDelegate {
         }
     }
 
-    func closePopover(_ sender: AnyObject? = nil) {
+    @objc func closePopover(_ sender: AnyObject? = nil) {
         popover.performClose(statusItem.button)
         stopOutsideAreaClickDetector()
     }
@@ -98,8 +97,8 @@ extension AppDelegate {
 
     func startOutsideAreaClickDetector() {
         detector = NSEvent.addGlobalMonitorForEvents(
-                                                     matching: [NSEventMask.leftMouseDown,
-                                                                NSEventMask.rightMouseDown],
+            matching: [NSEvent.EventTypeMask.leftMouseDown,
+                       NSEvent.EventTypeMask.rightMouseDown],
                                                      handler: { [weak self] event in
             self?.closePopover()
         })

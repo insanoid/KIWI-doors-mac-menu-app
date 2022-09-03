@@ -23,7 +23,7 @@ class SensorCell: NSTableCellView {
     class func view(tableView: NSTableView,
                     owner: AnyObject?,
                     subject: AnyObject?) -> NSView? {
-        if let view = tableView.make(withIdentifier: SensorCell.identifier, owner: owner) as? SensorCell {
+        if let view = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier.init(rawValue: SensorCell.identifier), owner: owner) as? SensorCell {
             if let sensor = subject as? Sensors {
                 view.setCurrentSensor(sensor: sensor)
             }
@@ -54,9 +54,9 @@ class SensorCell: NSTableCellView {
             taglineLabel.stringValue = city
         }
         if invitePossible {
-            thumbnailImageView.image = NSImage.init(named: NSImageNameStatusAvailable)
+            thumbnailImageView.image = NSImage.init(named: NSImage.statusAvailableName)
         } else {
-            thumbnailImageView.image = NSImage.init(named: NSImageNameStatusUnavailable)
+            thumbnailImageView.image = NSImage.init(named: NSImage.statusUnavailableName)
         }
     }
 

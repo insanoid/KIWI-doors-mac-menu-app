@@ -246,7 +246,7 @@ extension SensorListViewController {
 
     @IBAction func showSettings(_ sender: AnyObject?) {
         notifyDismissPopover()
-        self.presentViewControllerAsModalWindow(AuthenticationViewController(nibName: AuthenticationViewController.className(), bundle: nil)!)
+        self.presentAsModalWindow(AuthenticationViewController(nibName: AuthenticationViewController.className(), bundle: nil))
     }
 }
 
@@ -259,7 +259,7 @@ fileprivate extension NSImage {
         if let copiedImage = self.copy() as? NSImage {
             copiedImage.lockFocus()
             color.set()
-            NSRectFillUsingOperation(imageBounds, .sourceAtop)
+            imageBounds.fill(using: .sourceAtop)
             copiedImage.unlockFocus()
             return copiedImage
         }

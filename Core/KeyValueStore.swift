@@ -69,16 +69,16 @@ enum Defaults: KeyValueStore, KIWIKeyValueStore {
         let email = value(forKey: Keys.username.rawValue)
         let password = value(forKey: Keys.password.rawValue)
 
-        if let _email = email as? String, let _password = password as? String {
-            return User(email: _email, password: _password)
+        if let email = email as? String, let password = password as? String {
+            return User(email: email, password: password)
         }
         return nil
     }
     static func currentSession() -> Session? {
         let sessionKey = value(forKey: Keys.session.rawValue)
 
-        if let _sessionKey = sessionKey as? String {
-            return Session.init(object: ["session_key": _sessionKey])
+        if let sessionKey = sessionKey as? String {
+            return Session.init(object: ["session_key": sessionKey])
         }
         return nil
     }
